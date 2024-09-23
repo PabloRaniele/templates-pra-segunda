@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plan.Vet - Atendimento</title>
+    <link rel="stylesheet" href="/css/atend.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo-container">
+          <img src="/img/Logo_Plan.Vet.png" alt="Plan.Vet Logo" class="logo" />
+        </div>
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#cadastros">Cadastros</a>
+        </nav>
+        <div class="profile-container">
+          <img
+            src="/img/profile.jpg"
+            alt="Foto de Perfil"
+            class="profile-pic"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div class="signup-container">
+      <h2>Procedimento</h2>
+      <form action="#" method="POST">
+        <fieldset class="module aligned">
+          <div class="form-row field-atend">
+            <label for="id_nome_proced">Procedimento:</label>
+            <input
+              type="text"
+              name="nome_proced"
+              class="vTextField"
+              maxlength="30"
+              id="id_nome_proced"
+              placeholder="Informe o procedimento"
+              required
+            />
+          </div>
+          <div class="form-row field-agend">
+            <label class="required" for="id_agend">Agendamento:</label>
+            <input
+              type="datetime-local"
+              name="agendamento"
+              id="id_agend"
+              required
+            />
+          </div>
+        </fieldset>
+        <div class="submit-row">
+          <input type="submit" value="Salvar" class="btn-submit" name="_save" />
+          <input
+            type="submit"
+            value="Salvar e adicionar outro(a)"
+            class="btn-submit"
+            name="_addanother"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
