@@ -79,13 +79,21 @@ fieldset {
 }
 
 .submit-row {
-  margin-top: 20px;
-  display: flex;
+  margin-top: 10px;
+  /* display: flex; */
   justify-content: space-between;
-  gap: 10px;
+  gap: 5px;
+  padding: 5px 10px;
+  background-color: #2ba03e;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.submit-row input[type="submit"] {
+/* .submit-row input[type="submit"] {
   padding: 10px 20px;
   background-color: #28a745;
   color: #fff;
@@ -98,7 +106,7 @@ fieldset {
 
 .submit-row input[type="submit"]:hover {
   background-color: #218838;
-}
+} */
 
 .options {
   margin-top: 20px;

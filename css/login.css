@@ -48,7 +48,7 @@ h2 {
   font-size: 16px;
 }
 
-.btn {
+/* .btn {
   width: 100%;
   padding: 10px;
   background-color: #28a745;
@@ -58,11 +58,11 @@ h2 {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
   background-color: #218838;
-}
+} */
 
 .options {
   margin-top: 20px;
@@ -78,4 +78,25 @@ h2 {
 
 .options a:hover {
   text-decoration: underline;
+}
+
+.submit-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 48%;
+}
+
+.btn-submit:hover {
+  background-color: #218838;
 }
